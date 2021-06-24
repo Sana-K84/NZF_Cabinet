@@ -92,7 +92,7 @@
         function getPayroll() {
             document.querySelector('.right').innerHTML =
                 '<div class="payroll"><div class="payroll_head">Розрахунковий лист</div>' +
-                '<div class="select"><img src="img/Images/5.png" class="select_img"><select><option>2020</option><option>2021</option></select><select><option>Січень</option><option>Лютий</option><option>Березень</option><option>Квітень</option><option>Травень</option><option>Червень</option><option>Липень</option><option>Серпень</option><option>Вересень</option><option>Жовтень</option><option>Листопад</option><option>Грудень</option></select></div><div id="print">Друк</div>' +
+                '<div class="select"><img src="img/Images/5.gif" class="select_img"><select><option>2020</option><option>2021</option></select><select><option>Січень</option><option>Лютий</option><option>Березень</option><option>Квітень</option><option>Травень</option><option>Червень</option><option>Липень</option><option>Серпень</option><option>Вересень</option><option>Жовтень</option><option>Листопад</option><option>Грудень</option></select></div><div id="print">Друк</div>' +
 
                 '<table border="0"><tr><td colspan="2">Нараховано</td><td>Утримано</td></tr><tr><td>' + globArr.email + '</td><td>' + globArr.address.zipcode + '</td><td>' + globArr.company.bs + '</td></tr><tr><td>' + globArr.address.street + '</td><td>' + globArr.website + '</td><td>' + globArr.address.suite + '</td></tr><tr><td colspan="2">Зарплата: ' + globArr.address.geo.lat + '</td><td>' + globArr.address.city + '</td> </tr><tr><td colspan="2">Аванс: ' + globArr.address.geo.lng + '</td>    <td></td></tr></div>'
 
